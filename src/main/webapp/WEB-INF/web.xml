@@ -17,6 +17,10 @@
         <servlet-name>ServletLogin</servlet-name>
         <servlet-class>com.mycompany.controler.ServletLogin</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>PreguntasHO</servlet-name>
+        <servlet-class>com.mycompany.controler.PreguntasHO</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Faces Servlet</servlet-name>
         <url-pattern>*.ajitzi</url-pattern>
@@ -24,6 +28,10 @@
     <servlet-mapping>
         <servlet-name>ServletLogin</servlet-name>
         <url-pattern>/ServletLogin</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PreguntasHO</servlet-name>
+        <url-pattern>/PreguntasHO</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
